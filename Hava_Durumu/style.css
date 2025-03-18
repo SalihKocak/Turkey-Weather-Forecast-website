@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.weather-box h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#citySelect {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.weather-icon {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.weather-icon i {
+    font-size: 80px;
+    color: #5b548a;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.temperature h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 18px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col i {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #5b548a;
+}
+
+.humidity, .wind {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.turkey-map {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.turkey-map svg {
+    width: 100%;
+    height: auto;
+}
+
+.city {
+    fill: #ebfffc;
+    stroke: #5b548a;
+    stroke-width: 1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.city:hover {
+    fill: #5b548a;
+    transform: scale(1.02);
+    transform-origin: center;
+    filter: drop-shadow(0 0 5px rgba(91, 84, 138, 0.5));
+}
+
+.city.active {
+    fill: #00feba;
+}
+
+/* Tooltip stili */
+.map-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -100%);
+    margin-top: -10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.map-tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px 5px 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent;
+}
+
+.map-tooltip.visible {
+    opacity: 1;
+}
+
+.additional-info {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(91, 84, 138, 0.1);
+    border-radius: 10px;
+}
+
+.additional-info p {
+    margin: 5px 0;
+    color: #5b548a;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day {
+    flex: 1;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.forecast-day:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.forecast-day .day-name {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #5b548a;
+    margin-bottom: 8px;
+}
+
+.forecast-day i {
+    font-size: 30px;
+    color: #5b548a;
+    margin: 10px 0;
+}
+
+.forecast-day .temp {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    margin: 8px 0;
+}
+
+.forecast-day .temp-range {
+    font-size: 0.9em;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.map-attribution {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.map-attribution a {
+    color: #5b548a;
+    text-decoration: none;
+}
+
+.map-attribution a:hover {
+    text-decoration: underline;
+}
+
+#turkey-map {
+    width: 100%;
+    height: auto;
+}
+
+#turkey-map path {
+    fill: #ebfffc;
+    stroke: #5b548a;
+    stroke-width: 1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#turkey-map path:hover {
+    fill: #5b548a;
+    transform: scale(1.02);
+    transform-origin: center;
+}
+
+#hover-info {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+    z-index: 1000;
+}
+
+/* Hata mesajı stili */
+.error-message {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+    .forecast-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .forecast-day {
+        margin: 5px 0;
+        padding: 12px;
+    }
+
+    .forecast-day:hover {
+        transform: translateX(5px);
+    }
+
+    .turkey-map {
+        padding: 10px;
+    }
+    
+    #svg-turkey-map {
+        max-width: 100%;
+    }
+}
+
+/* SVG Harita Stilleri */
+#svg-turkey-map {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+#svg-turkey-map path {
+    fill: #ebfffc;
+    stroke: #5b548a;
+    stroke-width: 1;
+    transition: all 0.3s ease;
+}
+
+#svg-turkey-map path:hover {
+    fill: #5b548a;
+    opacity: 0.7;
+}
+
+#svg-turkey-map path.selected {
+    fill: #00feba;
+    stroke: #5b548a;
+    stroke-width: 2;
+}
+
+/* Saat ve Tarih */
+.date-time {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: var(--text-color-light);
+    font-weight: 500;
+}
+
+/* Favori Şehirler */
+.favorites-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.favorite-city {
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.favorite-city:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Hava Kalitesi İndeksi */
+.air-quality {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Grafik Container */
+.chart-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* Dil Seçici */
+.language-selector {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.language-selector button {
+    padding: 5px 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--text-color-light);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.language-selector button.active {
+    background: var(--text-color-light);
+    color: var(--bg-color-light);
+} 

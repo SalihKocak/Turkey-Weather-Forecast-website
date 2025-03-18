@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="turkey-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1007.478 527.322">
+    <g id="turkiye">
+        <!-- Tüm path'ler buraya gelecek -->
+        <!-- Marmara Bölgesi -->
+        
+        <path id="istanbul" data-city="İstanbul" d="M235.5,97.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9l0.4-1.1l1-0.6l0.8,0.2v0.7l1.2,0.9l1.3,0.4l0.6-0.1l0.6,0.6l0.8-0.2l0.7,0.3l0.8-0.2l0.7,0.4l1.2,0.2v-1.1l0.9-0.2l0.4,0.7l0.8,0.2l0.7-0.7l0.8,0.1" class="city"/>
+         <path id="istanbul" data-city="İstanbul" d="M235.5,97.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9l0.4-1.1l1-0.6l0.8,0.2v0.7l1.2,0.9l1.3,0.4l0.6-0.1l0.6,0.6l0.8-0.2l0.7,0.3l0.8-0.2l0.7,0.4l1.2,0.2v-1.1l0.9-0.2l0.4,0.7l0.8,0.2l0.7-0.7l0.8,0.1" class="city"/>
+                        <path id="edirne" data-city="Edirne" d="M185.5,82.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        <path id="kirklareli" data-city="Kırklareli" d="M205.5,72.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="tekirdag" data-city="Tekirdağ" d="M215.5,92.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="canakkale" data-city="Çanakkale" d="M165.5,122.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="bursa" data-city="Bursa" d="M185.5,142.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="balikesir" data-city="Balıkesir" d="M155.5,162.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="yalova" data-city="Yalova" d="M205.5,132.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <path id="kocaeli" data-city="Kocaeli" d="M225.5,122.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <path id="sakarya" data-city="Sakarya" d="M245.5,132.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="bilecik" data-city="Bilecik" d="M265.5,142.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        <!-- Ege Bölgesi -->
+                        <path id="izmir" data-city="İzmir" d="M115.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9l0.4-1.1" class="city"/>
+                        
+                        <path id="aydin" data-city="Aydın" d="M135.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="mugla" data-city="Muğla" d="M145.5,302.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="denizli" data-city="Denizli" d="M165.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="usak" data-city="Uşak" d="M185.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="manisa" data-city="Manisa" d="M135.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kutahya" data-city="Kütahya" d="M205.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="afyonkarahisar" data-city="Afyonkarahisar" d="M225.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <!-- Akdeniz Bölgesi -->
+                        <path id="antalya" data-city="Antalya" d="M245.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="isparta" data-city="Isparta" d="M265.5,342.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="burdur" data-city="Burdur" d="M245.5,342.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="mersin" data-city="Mersin" d="M385.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="adana" data-city="Adana" d="M425.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="osmaniye" data-city="Osmaniye" d="M445.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="hatay" data-city="Hatay" d="M465.5,382.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kahramanmaras" data-city="Kahramanmaraş" d="M445.5,342.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <!-- İç Anadolu Bölgesi -->
+                        <path id="ankara" data-city="Ankara" d="M322.4,222.7l-1.2,0.7l-0.8-0.5l-3.3,1.6l-0.8-0.4l-0.7,0.6l-1.1,0.1l-0.7,0.7l-1.4,0.1l-2.2-1.4" class="city"/>
+                        
+                        <path id="konya" data-city="Konya" d="M325.5,312.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="eskisehir" data-city="Eskişehir" d="M285.5,202.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="karaman" data-city="Karaman" d="M345.5,342.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kirsehir" data-city="Kırşehir" d="M365.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="nevsehir" data-city="Nevşehir" d="M385.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="nigde" data-city="Niğde" d="M405.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="aksaray" data-city="Aksaray" d="M345.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="yozgat" data-city="Yozgat" d="M405.5,222.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="sivas" data-city="Sivas" d="M465.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kayseri" data-city="Kayseri" d="M425.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <!-- Karadeniz Bölgesi -->
+                        <path id="samsun" data-city="Samsun" d="M485.5,162.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="sinop" data-city="Sinop" d="M445.5,142.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kastamonu" data-city="Kastamonu" d="M405.5,142.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="corum" data-city="Çorum" d="M425.5,182.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="amasya" data-city="Amasya" d="M465.5,182.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="tokat" data-city="Tokat" d="M485.5,202.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <!-- Doğu Anadolu Bölgesi -->
+                        <path id="erzurum" data-city="Erzurum" d="M665.5,182.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="erzincan" data-city="Erzincan" d="M585.5,202.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="agri" data-city="Ağrı" d="M745.5,182.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kars" data-city="Kars" d="M725.5,162.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="igdir" data-city="Iğdır" d="M765.5,172.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="ardahan" data-city="Ardahan" d="M725.5,142.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="bingol" data-city="Bingöl" d="M645.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="mus" data-city="Muş" d="M685.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="bitlis" data-city="Bitlis" d="M705.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="van" data-city="Van" d="M745.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="hakkari" data-city="Hakkari" d="M745.5,302.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="tunceli" data-city="Tunceli" d="M585.5,242.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="elazig" data-city="Elazığ" d="M565.5,262.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="malatya" data-city="Malatya" d="M525.5,282.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+
+                        <!-- Güneydoğu Anadolu Bölgesi -->
+                        <path id="gaziantep" data-city="Gaziantep" d="M505.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="kilis" data-city="Kilis" d="M505.5,382.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="sanliurfa" data-city="Şanlıurfa" d="M565.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="adiyaman" data-city="Adıyaman" d="M525.5,322.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="diyarbakir" data-city="Diyarbakır" d="M625.5,322.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="mardin" data-city="Mardin" d="M625.5,362.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="batman" data-city="Batman" d="M665.5,322.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="siirt" data-city="Siirt" d="M685.5,302.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+                        
+                        <path id="sirnak" data-city="Şırnak" d="M705.5,322.7l1.2-0.7l1.1-0.9l-0.2-1.1l1.2-0.3l0.7,0.3l0.7,1.1h1.1l0.8-0.7l0.9,0.3l0.7-0.2l0.6,0.6h0.9" class="city"/>
+        <!-- Diğer tüm iller buraya gelecek -->
+    </g>
+</svg> 
