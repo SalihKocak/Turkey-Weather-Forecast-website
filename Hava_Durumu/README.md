@@ -26,15 +26,7 @@ _(Ekran görüntüleri burada yer alacaktır)_
 - [Chart.js](https://www.chartjs.org/) - Sıcaklık grafikleri için
 - [Font Awesome](https://fontawesome.com/) - İkonlar için
 
-## Kurulum
-
-1. Projeyi klonlayın:
-   ```bash
-   git clone https://github.com/yourusername/turkiye-hava-durumu.git
-   cd turkiye-hava-durumu
-   ```
-
-2. Gerekli API anahtarınızı edinin:
+ Gerekli API anahtarınızı edinin:
    - [OpenWeatherMap](https://openweathermap.org/api) üzerinden ücretsiz API anahtarı alın
    - `config.js` dosyasını oluşturun ve API anahtarınızı ekleyin:
      ```javascript
